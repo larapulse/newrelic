@@ -1,0 +1,8 @@
+build
+.idea
+coverage
+
+### Composer
+composer.phar
+vendor
+composer.lock
