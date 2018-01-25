@@ -5,7 +5,7 @@
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
+<!-- [![Total Downloads][ico-downloads]][link-downloads] -->
 
 ## Structure
 
@@ -62,12 +62,12 @@ If you discover any security related issues, please email sergey.podgornyy@yahoo
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/larapulse/newrelic.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/larapulse/newrelic/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/larapulse/newrelic.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/larapulse/newrelic.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/larapulse/newrelic.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/larapulse/newrelic.svg
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[ico-travis]: https://img.shields.io/travis/larapulse/newrelic/master.svg
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/larapulse/newrelic.svg
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/larapulse/newrelic.svg
+[ico-downloads]: https://img.shields.io/packagist/dt/larapulse/newrelic.svg
 
 [link-packagist]: https://packagist.org/packages/larapulse/newrelic
 [link-travis]: https://travis-ci.org/larapulse/newrelic

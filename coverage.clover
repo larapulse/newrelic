@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1516877860">
+  <project timestamp="1516877860">
+    <package name="Larapulse\NewRelic\Exceptions">
+      <file name="/home/sergey/projects/larapulse/newrelic/src/Exceptions/ExtensionNotLoadedException.php">
+        <class name="ExtensionNotLoadedException" namespace="Larapulse\NewRelic\Exceptions">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Larapulse\NewRelic">
+      <file name="/home/sergey/projects/larapulse/newrelic/src/NewRelic.php">
+        <class name="NewRelic" namespace="Larapulse\NewRelic">
+          <metrics complexity="27" methods="7" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="11" elements="25" coveredelements="15"/>
+        </class>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="38" type="method" name="setAppName" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="54" type="method" name="setHiddenEnvs" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="66" type="method" name="getAppName" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="76" type="method" name="getEnv" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="86" type="method" name="getFullAppName" visibility="public" complexity="2" crap="2.15" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="180" type="method" name="addCustomParameterArray" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="182" type="stmt" count="0"/>
+        <line num="184" type="stmt" count="0"/>
+        <line num="185" type="stmt" count="0"/>
+        <line num="188" type="stmt" count="0"/>
+        <metrics loc="232" ncloc="149" classes="1" methods="7" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="11" elements="25" coveredelements="15"/>
+      </file>
+      <file name="/home/sergey/projects/larapulse/newrelic/src/NewRelicBlackhole.php">
+        <class name="NewRelicBlackhole" namespace="Larapulse\NewRelic">
+          <metrics complexity="13" methods="13" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="0" elements="52" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="setAppName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="18" type="method" name="enableBackgroundJob" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="26" type="method" name="disableBackgroundJob" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="34" type="method" name="ignoreTransaction" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="42" type="method" name="setTransactionName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="50" type="method" name="startTransaction" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="58" type="method" name="endTransaction" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="66" type="method" name="addCustomParameter" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="74" type="method" name="addCustomParameterArray" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="82" type="method" name="addCustomMetric" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="90" type="method" name="noticeError" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="98" type="method" name="noticeException" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="106" type="method" name="recordCustomEvent" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <metrics loc="110" ncloc="71" classes="1" methods="13" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="0" elements="52" coveredelements="0"/>
+      </file>
+      <file name="/home/sergey/projects/larapulse/newrelic/src/NewRelicFactory.php">
+        <class name="NewRelicFactory" namespace="Larapulse\NewRelic">
+          <metrics complexity="8" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="setInstance" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="34" type="method" name="getInstance" visibility="public" complexity="4" crap="20" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <metrics loc="71" ncloc="42" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/sergey/projects/larapulse/newrelic/src/NewRelicInterface.php">
+      <metrics loc="121" ncloc="32" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="5" loc="549" ncloc="309" classes="4" methods="23" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="11" elements="91" coveredelements="15"/>
+  </project>
+</coverage>

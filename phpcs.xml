@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+    <description>NewRelic PHPCS Config</description>
+
+    <file>src/</file>
+    <file>tests/</file>
+
+    <extensions>php</extensions>
+
+    <rule ref="PSR2"/>
+</ruleset>

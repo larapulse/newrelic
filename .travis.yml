@@ -4,7 +4,7 @@ language: php
 php:
   - 7.0
   - 7.1
-  - hhvm
+  - 7.2
   - nightly
 
 # This triggers builds to run on the new TravisCI infrastructure.
@@ -24,8 +24,8 @@ before_script:
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
 
 script:
-  - vendor/bin/phpcs --standard=psr2 src/
-  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+  - composer check-style
+  - composer test-with-coverage
 
 after_script:
   - |
